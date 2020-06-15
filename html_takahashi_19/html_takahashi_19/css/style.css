@@ -1,0 +1,294 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    width: auto;
+    font-size: 62.5% ;/*16px × 62.5%=10px*/
+    text-align: center;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+
+/* ヘッダーの設定 */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.headre__nav{
+    display: flex;
+}
+
+.headre__nav li{
+    margin-left: 40px;
+}
+
+/* メインビジュアルの設定 */
+.mainvisual{
+ height: 400px;
+ /* 背景画像はbackgroud:url("**") */
+background:url("../img/mainbg.png") ;
+/* ↓の３つは背景画像を使う時に基本必要な設定 */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+/* 世界を変えるチーズのところ*/
+.mainvisual__titlle{
+    font-size: 3.0rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+/* チーズ職人養成のところ */
+.mainvisual__subtitlle{
+    font-size: 3.0rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+/* aboutの記述 */
+.about{
+    margin: 60px 0;
+}
+
+.about__midashi{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.about__school{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+
+.about__school2{
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.about__setumei{
+    margin-bottom: 20px;
+}
+/* 横並びの画像の設定 */
+.desplay{
+ display: flex;
+ margin: 80px 0 0;
+}
+
+.desplay p img{
+    width: 100%;
+}
+/* コースの設定の記述 */
+.Course{
+margin: 50px 0;
+}
+/* コースの文字 */
+.Course__midashi{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.Course__text{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+/* 日本語の太字 */
+.Course__midashi2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+.course__setumei{
+    margin: 0 0 60px}
+
+/* 画像を左、文字を右に回り込まて背景色を変える */
+.course__frex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fafafa;
+    align-content: space-around;
+}
+/* ふれっくボックス1の部分の設定 */
+.Course__frexitem1{
+    order: 1;
+}
+ 
+/* フレックボックス２の設定 */
+.Course__frexitem2{
+ order: 2;
+ margin: 120px 0 120px;
+}
+
+.Course__frexitem3{
+    order: 4;
+}
+
+.Course__frexitem4{
+    order: 3;
+    margin: 120px 0 120px;   
+}
+
+.Course__frexitem5{
+    order: 5;
+}
+
+.Course__frexitem6{
+    order: 6 ;
+    margin: 120px 0 120px;
+}
+
+
+/*ぶれっくボックスの説明文の部分 */
+.Course__setumeibunn{
+    line-height: 30px;
+    text-align :left;
+    width: 480px;
+    padding-left: 50px;   
+}
+/* フレックぼっっくすの説明文(左側にまわっているやつ） */
+.Course__setumeibunn2{
+    line-height: 30px;
+    text-align :left;
+    width: 480px;
+    padding-right: 50px;
+}
+
+/*  ニュースの設定 */
+.news__reiauto{
+    margin: 60px 0 60px;
+}
+ 
+.news{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.news2{
+    width: 300px ;
+    padding-right: 30px;
+}
+
+/* ニュースの見出しの文書の設定 */
+.news__midashi2{
+    margin: 0 0 60px;
+}
+.news__annnai{
+    margin: 30px 0 24px;
+    font-size: 1.6rem;
+}
+
+/* ニュースの説明文の調整 */
+.news__setumei{
+ line-height: 30px;
+ text-align: start;
+ margin-bottom: 60px;
+}
+
+/* ニュースのボタン */
+.butoon{
+    font-size: 1.8rem;
+    background-color: #ffd61a;
+    width: 300px;
+    height: 60px;
+}
+    
+/* アクセスの設定 */
+.access{
+    background-color: #fafafa;
+}
+.access__midashi{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;   
+}
+.access__Asetumei{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.access__setumei{
+    line-height: 50px;
+}
+
+/* コンタクトの部分 */
+.Contact{
+    margin: 60px 0 230px;
+}
+
+/* コンタクトの文書の設定 */
+.Contact__midashi{
+    margin-bottom: 60px;
+}
+
+.Contact__setumeibunn1{
+ margin-bottom: 30px;
+ line-height: 20px;
+}
+
+.Contact__setumeibunn2{
+    margin-bottom: 70px;
+    line-height: 20px;
+}
+
+/*  fフォームぼっくの部分 */
+.formbox{
+    width: 640px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    border: solid #bfbfbf;
+}
+
+.formbox__dezainn{
+    display: flex;
+}
+
+.formbox__koumoku{
+    width: 240px;
+    height: 56px;
+    align-items: center;
+    
+}
+
+.formbox__nyuuryok{
+ width: 400px;
+ height: 56px;
+ 
+}
+
+/* 問い合わせ内容入力の幅 */
+input.hage{
+  width: 328px; 
+  height: 36px;
+  margin: 8px 0 8px; 
+}
+/* ラジオボタン */
+.label{
+    display: block;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.laduo{
+    width: 400px;
+}
+/* フッターの設定 */
+.footer{
+    background-color: #707070;
+    padding: 30px 0 30px;
+}
